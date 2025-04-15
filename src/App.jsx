@@ -18,7 +18,7 @@ export default function App() {
     setUserData((prev) => ({
       ...prev,
       hasEntered: true,
-      pageLoadTime: new Date(),
+      entranceTime: new Date(),
       clickCoordinates: { offsetX: e.clientX, offsetY: e.clientY },
     }));
   };
